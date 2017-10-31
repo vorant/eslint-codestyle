@@ -1,5 +1,4 @@
-# eslint-codestyle
-
+##Codestyle
 styles taken from [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 
 - [2.1](#references--prefer-const) Use `const` for all of your references; avoid using `var`. eslint: [`prefer-const`](https://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](https://eslint.org/docs/rules/no-const-assign.html)
@@ -1780,7 +1779,7 @@ const requests = [
     
 taken from  [https://standardjs.com/rules.html#javascript-standard-style](https://standardjs.com/rules.html#javascript-standard-style)
 
-######No unused variables.
+####No unused variables.
 
 eslint: [`no-unused-varsp`](https://eslint.org/docs/rules/no-unused-vars.html)
 ```
@@ -1789,7 +1788,7 @@ var result = something()   // ✗ avoid
 }
 ```
 
-######Multiple blank lines not allowed.
+####Multiple blank lines not allowed.
 eslint: [`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines.html)
 
 ```
@@ -1804,7 +1803,7 @@ var value = 'hello world'
 console.log(value)
 ```
 
-######For the ternary operator in a multi-line setting, place ? and : on their own lines.
+####For the ternary operator in a multi-line setting, place ? and : on their own lines.
 
 eslint: [`operator-linebreak`](https://eslint.org/docs/rules/operator-linebreak.html) 
 
@@ -1823,7 +1822,7 @@ var location = env.development ?
 'www.api.com'
 ```
 
-######Add space between colon and value in key value pairs.
+####Add space between colon and value in key value pairs.
 
 eslint: [`key-spacing`](https://eslint.org/docs/rules/key-spacing.html) 
 
@@ -1834,7 +1833,7 @@ var obj = { 'key':'value' }      // ✗ avoid
 var obj = { 'key': 'value' }     // ✓ ok 
 ```
 
-######No debugger statements.
+####No debugger statements.
 
 eslint: [`no-debugger`](https://eslint.org/docs/rules/no-debugger.html) 
 
@@ -1845,7 +1844,7 @@ return a + b
 }
 ```
 
-######No function declarations in nested blocks.
+####No function declarations in nested blocks.
 
 eslint: [`no-inner-declarations`](https://eslint.org/docs/rules/no-inner-declarations.html) 
 
@@ -1855,7 +1854,7 @@ function setAuthUser () {}    // ✗ avoid
 }
 ```
 
-######No invalid regular expression strings in RegExp constructors.
+####No invalid regular expression strings in RegExp constructors.
 
 eslint: [`no-invalid-regexp`](https://eslint.org/docs/rules/no-invalid-regexp.html) 
 
@@ -1864,7 +1863,7 @@ RegExp('[a-z')    // ✗ avoid
 RegExp('[a-z]')   // ✓ ok 
 ```
 
-######No unnecessary nested blocks.
+####No unnecessary nested blocks.
 
 eslint: [`no-lone-blocks`](https://eslint.org/docs/rules/no-lone-blocks.html) 
 
@@ -1880,7 +1879,7 @@ myOtherFunc()       // ✓ ok
 }
 ```
 
-######No unreachable code after return, throw, continue, and break statements.
+####No unreachable code after return, throw, continue, and break statements.
 
 eslint: [`no-unreachable`](https://eslint.org/docs/rules/no-unreachable.html) 
 
@@ -1891,7 +1890,7 @@ console.log('never called')     // ✗ avoid
 }
 ```
 
-######No unnecessary constructor.
+####No unnecessary constructor.
 
 eslint: [`no-useless-constructor`](https://eslint.org/docs/rules/no-useless-constructor.html) 
 
@@ -1903,7 +1902,7 @@ constructor () {      // ✗ avoid
 }
 ```
 
-######Maintain consistency of newlines between object properties.
+####Maintain consistency of newlines between object properties.
 
 eslint: [`object-property-newline`](https://eslint.org/docs/rules/object-property-newline.html) 
 
@@ -1922,7 +1921,7 @@ username: 'jdoe86'
 }  
 ```
 
-######No padding within blocks.
+####No padding within blocks.
 
 eslint: [`padded-blocks`](https://eslint.org/docs/rules/padded-blocks.html) 
 
@@ -1938,7 +1937,7 @@ const name = getName()    // ✓ ok
 }
 ```
 
-######typeof must be compared to a valid string.
+####typeof must be compared to a valid string.
 
 eslint: [`valid-typeof`](https://eslint.org/docs/rules/valid-typeof.html) 
 
@@ -1947,7 +1946,7 @@ typeof name === 'undefimed'     // ✗ avoid
 typeof name === 'undefined'     // ✓ ok 
 ```
 
-######Avoid Yoda conditions.
+####Avoid Yoda conditions.
 
 eslint: [`yoda`](https://eslint.org/docs/rules/yoda.html) 
 
