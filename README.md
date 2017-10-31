@@ -1779,7 +1779,7 @@ const requests = [
     
 taken from  [https://standardjs.com/rules.html#javascript-standard-style](https://standardjs.com/rules.html#javascript-standard-style)
 
-#### No unused variables.
+#### 24.1 No unused variables.
 
 eslint: [`no-unused-varsp`](https://eslint.org/docs/rules/no-unused-vars.html)
 ```
@@ -1788,7 +1788,7 @@ var result = something()   // ✗ avoid
 }
 ```
 
-#### Multiple blank lines not allowed.
+#### 24.2 Multiple blank lines not allowed.
 eslint: [`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines.html)
 
 ```
@@ -1803,7 +1803,7 @@ var value = 'hello world'
 console.log(value)
 ```
 
-#### For the ternary operator in a multi-line setting, place ? and : on their own lines.
+#### 24.3 For the ternary operator in a multi-line setting, place ? and : on their own lines.
 
 eslint: [`operator-linebreak`](https://eslint.org/docs/rules/operator-linebreak.html) 
 
@@ -1822,7 +1822,7 @@ var location = env.development ?
 'www.api.com'
 ```
 
-#### Add space between colon and value in key value pairs.
+#### 24.4 Add space between colon and value in key value pairs.
 
 eslint: [`key-spacing`](https://eslint.org/docs/rules/key-spacing.html) 
 
@@ -1833,7 +1833,7 @@ var obj = { 'key':'value' }      // ✗ avoid
 var obj = { 'key': 'value' }     // ✓ ok 
 ```
 
-#### No debugger statements.
+#### 24.5 No debugger statements.
 
 eslint: [`no-debugger`](https://eslint.org/docs/rules/no-debugger.html) 
 
@@ -1844,7 +1844,7 @@ return a + b
 }
 ```
 
-#### No function declarations in nested blocks.
+#### 24.6 No function declarations in nested blocks.
 
 eslint: [`no-inner-declarations`](https://eslint.org/docs/rules/no-inner-declarations.html) 
 
@@ -1854,7 +1854,7 @@ function setAuthUser () {}    // ✗ avoid
 }
 ```
 
-#### No invalid regular expression strings in RegExp constructors.
+#### 24.7 No invalid regular expression strings in RegExp constructors.
 
 eslint: [`no-invalid-regexp`](https://eslint.org/docs/rules/no-invalid-regexp.html) 
 
@@ -1863,7 +1863,7 @@ RegExp('[a-z')    // ✗ avoid
 RegExp('[a-z]')   // ✓ ok 
 ```
 
-#### No unnecessary nested blocks.
+#### 24.8 No unnecessary nested blocks.
 
 eslint: [`no-lone-blocks`](https://eslint.org/docs/rules/no-lone-blocks.html) 
 
@@ -1879,7 +1879,7 @@ myOtherFunc()       // ✓ ok
 }
 ```
 
-#### No unreachable code after return, throw, continue, and break statements.
+#### 24.9 No unreachable code after return, throw, continue, and break statements.
 
 eslint: [`no-unreachable`](https://eslint.org/docs/rules/no-unreachable.html) 
 
@@ -1890,7 +1890,7 @@ console.log('never called')     // ✗ avoid
 }
 ```
 
-#### No unnecessary constructor.
+#### 24.10 No unnecessary constructor.
 
 eslint: [`no-useless-constructor`](https://eslint.org/docs/rules/no-useless-constructor.html) 
 
@@ -1902,7 +1902,7 @@ constructor () {      // ✗ avoid
 }
 ```
 
-#### Maintain consistency of newlines between object properties.
+#### 24.11 Maintain consistency of newlines between object properties.
 
 eslint: [`object-property-newline`](https://eslint.org/docs/rules/object-property-newline.html) 
 
@@ -1921,7 +1921,7 @@ username: 'jdoe86'
 }  
 ```
 
-#### No padding within blocks.
+#### 24.12 No padding within blocks.
 
 eslint: [`padded-blocks`](https://eslint.org/docs/rules/padded-blocks.html) 
 
@@ -1937,7 +1937,7 @@ const name = getName()    // ✓ ok
 }
 ```
 
-#### typeof must be compared to a valid string.
+#### 24.13 typeof must be compared to a valid string.
 
 eslint: [`valid-typeof`](https://eslint.org/docs/rules/valid-typeof.html) 
 
@@ -1946,7 +1946,7 @@ typeof name === 'undefimed'     // ✗ avoid
 typeof name === 'undefined'     // ✓ ok 
 ```
 
-#### Avoid Yoda conditions.
+#### 24.14 Avoid Yoda conditions.
 
 eslint: [`yoda`](https://eslint.org/docs/rules/yoda.html) 
 
