@@ -55,5 +55,5 @@
     }
     ```
 
-
+Примеры компонентов можно посмотреть здесь [link](https://github.com/vorant/test-task-angular-1.5.x/tree/master/client/app/components)
 
