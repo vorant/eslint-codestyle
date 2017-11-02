@@ -1440,7 +1440,7 @@ const foo = {clark: 'kent'};
 const foo = { clark: 'kent' };
 ```
 
-- [19.12](#whitespace--max-len) Avoid having lines of code that are longer than 150 characters (including whitespace). Note: per [above](#strings--line-length), long strings are exempt from this rule, and should not be broken up. eslint: [`max-len`](https://eslint.org/docs/rules/max-len.html)
+- [19.12](#whitespace--max-len) Avoid having lines of code that are longer than 120 characters (including whitespace). Note: per [above](#strings--line-length), long strings are exempt from this rule, and should not be broken up. eslint: [`max-len`](https://eslint.org/docs/rules/max-len.html)
 
 > Why? This ensures readability and maintainability.
 
