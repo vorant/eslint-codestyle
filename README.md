@@ -377,26 +377,6 @@ function f4(a = 1) {
 }
 ```
 
-- [7.14](#functions--spread-vs-apply) Prefer the use of the spread operator `...` to call variadic functions. eslint: [`prefer-spread`](https://eslint.org/docs/rules/prefer-spread)
-
-> Why? It’s cleaner, you don’t need to supply a context, and you can not easily compose `new` with `apply`.
-
-```javascript
-// bad
-const x = [1, 2, 3, 4, 5];
-console.log.apply(console, x);
-
-// good
-const x = [1, 2, 3, 4, 5];
-console.log(...x);
-
-// bad
-new (Function.prototype.bind.apply(Date, [null, 2016, 8, 5]));
-
-// good
-new Date(...[2016, 8, 5]);
-```
-
 - [7.15](#functions--signature-invocation-indentation) Functions with multiline signatures, or invocations, should be indented just like every other multiline list in this guide: with each item on a line by itself, with a trailing comma on the last item.
 
 ```javascript
