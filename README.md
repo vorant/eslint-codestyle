@@ -1915,6 +1915,6 @@ if (42 === age) { }    // ✗ avoid
 if (age === 42) { }    // ✓ ok
 ```
 
-#### 24.15 enforce a maximum file length
+#### 24.15 enforce a maximum file length 400
 
 eslint: [`max-lines`](https://eslint.org/docs/rules/max-lines.html) 
