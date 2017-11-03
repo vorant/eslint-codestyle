@@ -1354,46 +1354,6 @@ const arr = [
 return arr;
 ```
 
-- [19.8](#whitespace--padded-blocks) Do not pad your blocks with blank lines. eslint: [`padded-blocks`](https://eslint.org/docs/rules/padded-blocks.html)
-
-```javascript
-// bad
-function bar() {
-
-  console.log(foo);
-
-}
-
-// bad
-if (baz) {
-
-  console.log(qux);
-} else {
-  console.log(foo);
-
-}
-
-// bad
-class Foo {
-
-  constructor(bar) {
-    this.bar = bar;
-  }
-}
-
-// good
-function bar() {
-  console.log(foo);
-}
-
-// good
-if (baz) {
-  console.log(qux);
-} else {
-  console.log(foo);
-}
-```
-
 - [19.9](#whitespace--in-parens) Do not add spaces inside parentheses. eslint: [`space-in-parens`](https://eslint.org/docs/rules/space-in-parens.html)
 
 ```javascript
