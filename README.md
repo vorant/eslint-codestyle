@@ -665,37 +665,7 @@ numbers.forEach((num) => {
 // best (keeping it functional)
 const increasedByOne = numbers.map(num => num + 1);
 ```
-## Properties
 
-- [12.1](#properties--dot) Use dot notation when accessing properties. eslint: [`dot-notation`](https://eslint.org/docs/rules/dot-notation.html)
-
-```javascript
-const luke = {
-  jedi: true,
-  age: 28,
-};
-
-// bad
-const isJedi = luke['jedi'];
-
-// good
-const isJedi = luke.jedi;
-```
-
-- [12.2](#properties--bracket) Use bracket notation `[]` when accessing properties with a variable.
-
-```javascript
-const luke = {
-  jedi: true,
-  age: 28,
-};
-
-function getProp(prop) {
-  return luke[prop];
-}
-
-const isJedi = getProp('jedi');
-```
 
 ## Variables
 
