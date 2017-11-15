@@ -1204,48 +1204,6 @@ const x=y+5;
 // good
 const x = y + 5;
 ```
-- [19.6](#whitespace--chains) Use indentation when making long method chains (more than 2 method chains). Use a leading dot, which
-emphasizes that the line is a method call, not a new statement. eslint: [`newline-per-chained-call`](https://eslint.org/docs/rules/newline-per-chained-call) [`no-whitespace-before-property`](https://eslint.org/docs/rules/no-whitespace-before-property)
-
-```javascript
-// bad
-$('#items').find('.selected').highlight().end().find('.open').updateCount();
-
-// bad
-$('#items').
-  find('.selected').
-    highlight().
-    end().
-  find('.open').
-    updateCount();
-
-// good
-$('#items')
-  .find('.selected')
-    .highlight()
-    .end()
-  .find('.open')
-    .updateCount();
-
-// bad
-const leds = stage.selectAll('.led').data(data).enter().append('svg:svg').classed('led', true)
-    .attr('width', (radius + margin) * 2).append('svg:g')
-    .attr('transform', `translate(${radius + margin},${radius + margin})`)
-    .call(tron.led);
-
-// good
-const leds = stage.selectAll('.led')
-    .data(data)
-  .enter().append('svg:svg')
-    .classed('led', true)
-    .attr('width', (radius + margin) * 2)
-  .append('svg:g')
-    .attr('transform', `translate(${radius + margin},${radius + margin})`)
-    .call(tron.led);
-
-// good
-const leds = stage.selectAll('.led').data(data);
-```
 
 - [19.7](#whitespace--after-blocks) Leave a blank line after blocks and before the next statement.
 
