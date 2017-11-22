@@ -45,28 +45,6 @@ const item = new Object();
 const item = {};
 ```
 
-- [3.3](#es6-object-shorthand) Use object method shorthand. eslint: [`object-shorthand`](https://eslint.org/docs/rules/object-shorthand.html)
-
-```javascript
-// bad
-const atom = {
-  value: 1,
-
-  addValue: function (value) {
-    return atom.value + value;
-  },
-};
-
-// good
-const atom = {
-  value: 1,
-
-  addValue(value) {
-    return atom.value + value;
-  },
-};
-```
-
 - [3.8](#objects--rest-spread) Prefer the object spread operator over [`Object.assign`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to shallow-copy objects. Use the object rest operator to get a new object with certain properties omitted.
 
 ```javascript
