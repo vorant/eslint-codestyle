@@ -1,6 +1,6 @@
 ## Codestyle
 styles taken from [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
-
+<a name="references--prefer-const"></a><a name="2.1"></a>
 - [2.1](#references--prefer-const) Use `const` for all of your references; avoid using `var`. eslint: [`prefer-const`](https://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](https://eslint.org/docs/rules/no-const-assign.html)
 
 > Why? This ensures that you can’t reassign your references, which can lead to bugs and difficult to comprehend code.
@@ -1638,7 +1638,7 @@ eslint: [`yoda`](https://eslint.org/docs/rules/yoda.html)
 if (42 === age) { }    // ✗ avoid 
 if (age === 42) { }    // ✓ ok
 ```
-
-#### 24.15 enforce a maximum file length 400
+<a name="max-lines"></a><a name="24.15"></a>
+#### [24.15](#max-lines) enforce a maximum file length 400
 
 eslint: [`max-lines`](https://eslint.org/docs/rules/max-lines.html) 
