@@ -45,6 +45,9 @@
       "enforceForRenamedProperties": false
     }],
 
+    // 6.1 https://github.com/airbnb/javascript#strings--quotes
+    "quotes": ["error", "single", { "avoidEscape": true }],
+
     // 6.3 https://github.com/airbnb/javascript#es6-template-literals
     "prefer-template": "error",
     "template-curly-spacing": "error",
@@ -146,7 +149,7 @@
     "no-new-wrappers": "error",
 
     // 23.1 https://github.com/airbnb/javascript#naming--descriptive
-    "id-length": ["error", { "min": 2, "exceptions": ["i", "j", "e", "$"] }],
+    "id-length": ["error", { "min": 2, "exceptions": ["i", "j", "x", "y", "e", "$"] }],
 
     // 23.2 https://github.com/airbnb/javascript#naming--camelCase
     // 23.7 https://github.com/airbnb/javascript#naming--camelCase-default-export
