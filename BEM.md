@@ -1,26 +1,26 @@
-## Правила
+## Rules
 
-### Основные понятия 
-1. https://tech.yandex.ru/bem/
+### Basic knowledges and explanations of BEM 
+1. https://tech.yandex.com/bem/
 2. https://en.bem.info/methodology/quick-start/
 
-Из БЭМа используем ТОЛЬКО правила нейминга классов
-#### Не большое ответвтелние от документации
-для модификатора НЕ пишем имя блока, а пишем сразу модификатор
-модификатор должен начинаться с префикса _ 
-`_modifier-name_modifier-value` или просто `_modifier-name`
+ We use ONLY naming rules for css classes
+#### A little deviation from documentation
+for modifier we don't use black name but write modifier directly.
+Modifier has to start since prefix _ 
+`_modifier-name_modifier-value` or just `_modifier-name`
 	
-### Правила
+### Rules
 
-1.  Каждый шаблон компонента должен начинаться с класса с именем этого компонента
+1.  Each template must start since class name of component
      ```
      <div class="component-name">
      
      </div>
      ```
 
-2. Стили вешать только на класс, вешать стили на тэги можно лишь в следующих случаях:
-    1. на тэг компонента:
+2. Add styles ONLY on class. Add style on attributes you could only in following cases :
+    1. on component tag:
     ```
     // .html
     <component-name></component-name>
@@ -32,14 +32,14 @@
     // styles
     }
     ```
-    2. на компонент материл дизайна (при невозможности добавить ему класс), обязательно использовать (>) дочерние селекторы http://htmlbook.ru/css/selector/child, чтобы эти стили не повлияли на вложенные компоненты
+    2. on material design component (if you don't have ability to add styles on class). Must use (>) child selectors https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors
     ```
     // .scss
     &__elem > md-tabs-canvas {
     // styles
     }
     ```
-3. в **scss** файле & всегда указывает ТОЛЬКО на блок, запрещена вложенность более 2 
+3. In **scss** file & always point to block, depth more then 2 is forbidden. 
     ```
     // .scss
     // good
@@ -55,5 +55,5 @@
     }
     ```
 
-Примеры компонентов можно посмотреть здесь [link](https://github.com/vorant/test-task-angular-1.5.x/tree/master/client/app/components)
+Examples are available here [link](https://github.com/vorant/test-task-angular-1.5.x/tree/master/client/app/components)
 
