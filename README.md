@@ -103,6 +103,6 @@ All of the above methods also work for plugin rules. For example, to disable `es
 ```
 foo(); // eslint-disable-line example/rule-name
 ```
-*Note*: Comments that disable warnings for a portion of a file tell ESLint not to report rule violations for the disabled code. ESLint still parses the entire file, however, so disabled code still needs to be syntactically valid JavaScript.
+**Note**: Comments that disable warnings for a portion of a file tell ESLint not to report rule violations for the disabled code. ESLint still parses the entire file, however, so disabled code still needs to be syntactically valid JavaScript.
 
 
