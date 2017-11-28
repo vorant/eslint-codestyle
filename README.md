@@ -44,3 +44,5 @@ HTML styles [instruction](https://github.com/vorant/eslint-codestyle/blob/master
 ### Use in Sublime
 Read [instruction](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/)
 
+## Ignore ESLint rules
+Sometimes we need to skip some rules. (This)[https://eslint.org/docs/user-guide/configuring#disabling-rules-with-inline-comments] article describe you how to do it
