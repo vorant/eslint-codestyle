@@ -17,9 +17,9 @@ HTML styles [instruction](https://github.com/vorant/eslint-codestyle/blob/master
 - Download [.eslintrc](https://github.com/vorant/eslint-codestyle/blob/master/.eslintrc) and put in root folder of your project
 - Set up npm dependencies
   ```javascript
-    npm install eslint --save-dev
+    npm install --save-dev eslint babel-eslint 
     // if you use AngularJs (v1.x.x)
-    npm install eslint-plugin-angular --save-dev
+    npm install --save-dev eslint-plugin-angular 
     ```
     
 ### Use in console
