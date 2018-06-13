@@ -3,6 +3,7 @@
 ### Basic knowledges and explanations of BEM 
 1. https://tech.yandex.com/bem/
 2. https://en.bem.info/methodology/quick-start/
+3. https://en.bem.info/methodology/naming-convention/
 
  We use ONLY naming rules for css classes
 #### A little deviation from documentation
